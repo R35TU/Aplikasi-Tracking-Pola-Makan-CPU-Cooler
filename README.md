@@ -12,5 +12,5 @@ Aplikasi Smart Nutrition Tracker untuk memantau asupan kalori harian, pemenuhan 
 * **Firebase Firestore** - Database untuk menyimpan log makanan, data gizi harian, dan riwayat konsistensi
 
 ### Data & Tools
-* **Fatsecret API** Data buat makananan dan gizinya (sad nya data set region indo harus bayar)
+* **Fatsecret API** Data untuk makananan dan gizinya (sad nya data set region indo harus bayar)
 
