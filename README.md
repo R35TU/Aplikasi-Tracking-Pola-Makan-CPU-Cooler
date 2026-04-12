@@ -2,17 +2,33 @@ Aplikasi Smart Nutrition Tracker untuk memantau asupan kalori harian, pemenuhan 
 
 ## 🚀 Tech Stack
 
-### Frontend
+### Frontend & Backend
 
-- **Flutter** - Framework utama untuk membangun aplikasi.
-- **Riverpod** - State management untuk menangani perubahan data kalori dan checklist secara instan.
-- **FL Chart** - Library untuk menampilkan diagram garis/batang guna memantau konsistensi pola makan.
-- **Lucide Icons** - Library icon untuk tampilan UI.
+| Teknologi    | Versi  | Kegunaan                               |
+| ------------ | ------ | -------------------------------------- |
+| Flutter      | 3.x    | Framework utama mobile app             |
+| Riverpod     | 2.x    | State management                       |
+| FL Chart     | latest | Grafik kalori & konsistensi pola makan |
+| Lucide Icons | latest | Library icon UI                        |
+| Dio          | latest | HTTP client untuk konsumsi REST API    |
 
-### Backend
+### Database & Backend Service
 
-- **Firebase Firestore** - Database untuk menyimpan log makanan, data gizi harian, dan riwayat konsistensi
+| Teknologi               | Kegunaan                                                                   |
+| ----------------------- | -------------------------------------------------------------------------- |
+| Firebase Firestore      | Database utama — menyimpan log makanan, data gizi, dan riwayat konsistensi |
+| Firebase Authentication | Autentikasi pengguna (register & login)                                    |
+
+### External API
+
+| Teknologi     | Kegunaan                        |
+| ------------- | ------------------------------- |
+| FatSecret API | Data makanan dan kandungan gizi |
 
 ### Data & Tools
 
-- **Fatsecret API** Data untuk makananan dan gizinya (sad nya data set region indo harus bayar)
+| Tools                 | Kegunaan                     |
+| --------------------- | ---------------------------- |
+| Git + GitHub          | Version control & kolaborasi |
+| VS Code + Flutter SDK | IDE                          |
+| Postman               | Testing REST API             |
